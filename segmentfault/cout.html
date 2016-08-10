@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<style>
+		
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		
+		a {
+			color: #009a61;
+			text-decoration: none;
+		}
+
+		a {
+			background: transparent;
+		}
+		
+		a, a:active, a:focus, a:hover {
+			outline: 0;/*轮廓属性*/
+		}
+
+		*, :after, :before {
+   	 box-sizing: border-box;
+		}
+
+		.h4, h4 {
+			font-size: 18px;
+		}
+
+		.mt20 {
+			margin-top: 20px!important;
+		}
+		
+		.all-event-list {
+			margin-left: -10px;
+			margin-right: -10px;
+		}
+		
+		.btn-primary {
+			color: #fff;
+			background-color: #009a61;
+			border-color: #008151;
+		}
+		
+		.container {
+	    margin-right: auto;
+	    margin-left: auto;
+	    padding-left: 15px;
+	    padding-right: 15px;
+		}
+
+		.widget-event {
+			position: relative;
+			margin-bottom: 20px;
+			border: 1px solid #eee;
+			background: #f3f3f3;
+			height: 282px;
+			border-radius: 2px;
+			overflow: hidden;
+		}
+
+		.widget-event__banner {
+			border-bottom: 1px solid #eee;
+			width: 100%;
+			background-color: #fff;
+			height: 135px;
+		}
+
+		.widget-event__info {
+			padding: 15px 15px 0;
+		}
+		
+		.widget-event__info .title {
+			margin: 0;
+			font-size: 16px;
+			max-height: 38px;
+			overflow: hidden;
+		}
+	
+		.widget-event__info .title a {
+			color: #333;
+		}
+
+		.widget-event__meta {
+			list-style: none;
+			padding: 0;
+			margin: 8px 0 0;
+			font-size: 13px;
+			color: #999;
+		}
+
+		.widget-event__info .btn {
+			position: absolute;
+			right: 15px;
+			bottom: 15px;
+		}
+
+		.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+		 	z-index: 2;
+	    color: #fff;
+	    background-color: #009a61;
+	    border-color: #009a61;
+	    cursor: default;
+		}
+
+		.pagination>li>a, .pagination>li>span {
+	    position: relative;
+	    float: left;
+	    padding: 6px 12px;
+	    line-height: 1.5;
+	    text-decoration: none;
+	    color: #009a61;
+	    background-color: #fff;
+	    border: 1px solid #ddd;
+	    margin-left: -1px;
+		}
+		
+		.text-center {
+    	text-align: center;
+		}
+
+		@media(max-width: 767px) {
+			.widget-event {
+				padding-bottom: 15px;
+				height: auto;
+			}
+		}
+		
+		@media (max-width: 767px){
+			.widget-event__banner {
+			   height: initial;
+			}
+		}
+	
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row all-event-list mt20">
+			<div class="col-md-3 col-sm-4 col-xs-12">
+				<div class="widget-event">
+					<a href="">
+						<img class="widget-event__banner lazy" data-original="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium"	src="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium" alt="" style="display: inline;">
+					</a>
+					<div class="widget-event__info">
+						<h2 class="h4 title">
+							<a href="http://segmentfault.com/e/1160000005830053">RubyConf China 2016</a>
+						</h2>
+						<ul class="widget-event__meta">
+							<li>时间：2016-09-23 周五</li>
+							<li>城市：成都</li>
+						</ul>
+						<a href="" class="btn btn-primary btn-sm">立即报名</a>
+					</div>
+				</div>	
+			</div>
+				<div class="col-md-3 col-sm-4 col-xs-12">
+					<div class="widget-event">
+					<a href="">
+						<img class="widget-event__banner lazy" data-original="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium"	src="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium" alt="" style="display: inline;">
+					</a>
+					<div class="widget-event__info">
+						<h2 class="h4 title">
+							<a href="http://segmentfault.com/e/1160000005830053">RubyConf China 2016</a>
+						</h2>
+						<ul class="widget-event__meta">
+							<li>时间：2016-09-23 周五</li>
+							<li>城市：成都</li>
+						</ul>
+						<a href="" class="btn btn-primary btn-sm">立即报名</a>
+					</div>
+				</div>	
+			</div>
+				<div class="col-md-3 col-sm-4 col-xs-12">
+					<div class="widget-event">
+					<a href="">
+						<img class="widget-event__banner lazy" data-original="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium"	src="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium" alt="" style="display: inline;">
+					</a>
+					<div class="widget-event__info">
+						<h2 class="h4 title">
+							<a href="http://segmentfault.com/e/1160000005830053">RubyConf China 2016</a>
+						</h2>
+						<ul class="widget-event__meta">
+							<li>时间：2016-09-23 周五</li>
+							<li>城市：成都</li>
+						</ul>
+						<a href="" class="btn btn-primary btn-sm">立即报名</a>
+					</div>
+				</div>	
+			</div>
+				<div class="col-md-3 col-sm-4 col-xs-12">
+					<div class="widget-event">
+					<a href="">
+						<img class="widget-event__banner lazy" data-original="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium"	src="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium" alt="" style="display: inline;">
+					</a>
+					<div class="widget-event__info">
+						<h2 class="h4 title">
+							<a href="http://segmentfault.com/e/1160000005830053">RubyConf China 2016</a>
+						</h2>
+						<ul class="widget-event__meta">
+							<li>时间：2016-09-23 周五</li>
+							<li>城市：成都</li>
+						</ul>
+						<a href="" class="btn btn-primary btn-sm">立即报名</a>
+					</div>
+				</div>					
+			</div>
+				<div class="col-md-3 col-sm-4 col-xs-12">
+					<div class="widget-event">
+					<a href="">
+						<img class="widget-event__banner lazy" data-original="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium"	src="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium" alt="" style="display: inline;">
+					</a>
+					<div class="widget-event__info">
+						<h2 class="h4 title">
+							<a href="http://segmentfault.com/e/1160000005830053">RubyConf China 2016</a>
+						</h2>
+						<ul class="widget-event__meta">
+							<li>时间：2016-09-23 周五</li>
+							<li>城市：成都</li>
+						</ul>
+						<a href="" class="btn btn-primary btn-sm">立即报名</a>
+					</div>
+				</div>					
+			</div>
+				<div class="col-md-3 col-sm-4 col-xs-12">
+					<div class="widget-event">
+					<a href="">
+						<img class="widget-event__banner lazy" data-original="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium"	src="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium" alt="" style="display: inline;">
+					</a>
+					<div class="widget-event__info">
+						<h2 class="h4 title">
+							<a href="http://segmentfault.com/e/1160000005830053">RubyConf China 2016</a>
+						</h2>
+						<ul class="widget-event__meta">
+							<li>时间：2016-09-23 周五</li>
+							<li>城市：成都</li>
+						</ul>
+						<a href="" class="btn btn-primary btn-sm">立即报名</a>
+					</div>
+				</div>	
+			</div>
+			<div class="col-md-3 col-sm-4 col-xs-12">
+					<div class="widget-event">
+					<a href="">
+						<img class="widget-event__banner lazy" data-original="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium"	src="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium" alt="" style="display: inline;">
+					</a>
+					<div class="widget-event__info">
+						<h2 class="h4 title">
+							<a href="http://segmentfault.com/e/1160000005830053">RubyConf China 2016</a>
+						</h2>
+						<ul class="widget-event__meta">
+							<li>时间：2016-09-23 周五</li>
+							<li>城市：成都</li>
+						</ul>
+						<a href="" class="btn btn-primary btn-sm">立即报名</a>
+					</div>
+				</div>	
+			</div>
+			<div class="col-md-3 col-sm-4 col-xs-12">
+					<div class="widget-event">
+					<a href="">
+						<img class="widget-event__banner lazy" data-original="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium"	src="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium" alt="" style="display: inline;">
+					</a>
+					<div class="widget-event__info">
+						<h2 class="h4 title">
+							<a href="http://segmentfault.com/e/1160000005830053">RubyConf China 2016</a>
+						</h2>
+						<ul class="widget-event__meta">
+							<li>时间：2016-09-23 周五</li>
+							<li>城市：成都</li>
+						</ul>
+						<a href="" class="btn btn-primary btn-sm">立即报名</a>
+					</div>
+				</div>					
+			</div>
+			<div class="col-md-3 col-sm-4 col-xs-12">
+					<div class="widget-event">
+					<a href="">
+						<img class="widget-event__banner lazy" data-original="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium"	src="https://sfault-activity.b0.upaiyun.com/125/870/1258708142-577378359f86c_medium" alt="" style="display: inline;">
+					</a>
+					<div class="widget-event__info">
+						<h2 class="h4 title">
+							<a href="http://segmentfault.com/e/1160000005830053">RubyConf China 2016</a>
+						</h2>
+						<ul class="widget-event__meta">
+							<li>时间：2016-09-23 周五</li>
+							<li>城市：成都</li>
+						</ul>
+						<a href="" class="btn btn-primary btn-sm">立即报名</a>
+					</div>
+				</div>	
+			</div>
+			
+		</div>	
+		<div class="text-center">
+        <ul class="pagination">
+	        <li class="active">
+	        	<a href="javascript:void(0);">1</a>
+	        </li>
+	        <li>
+	        	<a href="/events/coming?page=2&amp;category=&amp;city=">2</a>
+	        </li>
+	        <li>
+	        	<a href="/events/coming?page=3&amp;category=&amp;city=">3</a>
+	        </li>
+	        <li>
+	        	<a href="/events/coming?page=4&amp;category=&amp;city=">4</a>
+	        </li>
+	        <li>
+	        	<a href="/events/coming?page=5&amp;category=&amp;city=">5</a>
+	        </li>
+	        <li class="disabled">
+	        	<span>…</span>
+	        </li>
+	        <li class="next">
+	        	<a rel="next" href="/events/coming?page=2&amp;category=&amp;city=">下一页</a>
+	        </li>
+        </ul>
+       </div>
+	</div>
+</body>
+</html>
